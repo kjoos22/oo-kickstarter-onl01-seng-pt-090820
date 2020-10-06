@@ -3,7 +3,7 @@ class Project
   attr_reader :title
   
   def initialize(title)
-    @name = name
+    @name = title
     @backed_projects = []
   end
 
